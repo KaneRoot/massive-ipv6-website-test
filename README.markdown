@@ -29,8 +29,6 @@ de faire le nécessaire.
   * [pad][3]
   * [resultats][4]
 
-# URL
-
 [1]: http://julien.vaubourg.com/files/intranet-ipv4-ou-internet-ipv6.webm
 [2]: http://julien.vaubourg.com/files/intranet-ipv4-ou-internet-ipv6.pdf
 [3]: http://pad.arn-fai.net/p/website_ipv6_test
