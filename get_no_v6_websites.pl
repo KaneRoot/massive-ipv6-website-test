@@ -69,14 +69,16 @@ sub check_reachability {
         chomp;
         test_ipv6 $_;
     }
-    say '--!>';
+    say '-->';
 }
 
 sub do_html {
     my @passed = grep { $dom{$_} } keys %dom;
     my @notpassed = grep { not $dom{$_} } keys %dom;
 
-    say '<html><head>
+    say '<!DOCTYPE HTML>
+    <html><head>
+    <title>Mass IPv6 Website Test</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     </head><body>';
     say "<h1> Domaines accessibles en IPv6 (♥) : </h1>";
